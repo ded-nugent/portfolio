@@ -1,0 +1,146 @@
+
+body {
+  margin: 5rem 0;
+  text-align: center;
+  height: 3600px;
+  min-height: 200vh;
+  font-family:'Press Start 2P', cursive;
+  background-color: black;
+
+  
+  
+}
+
+
+#bigwrapper {
+   
+      background-image: linear-gradient(black, grey, white);
+    display: inline-block;
+    
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    color: yellow;
+   
+}
+
+.row {
+    margin-top: 200px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
+
+text {
+  fill: blue;
+  font-size: 30px;
+  
+}
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#container {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: table; 
+    overflow: hidden;
+
+    
+  }
+#container2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    
+    
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 69%;
+    transition: .5s ease;
+    background-color: blue;
+    
+  }
+
+  
+  #container:hover .overlay, #container2:hover .overlay {
+    opacity: 0%;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .para {
+      padding: 20px;
+      color: black;
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      display: table-cell; 
+      vertical-align: middle;
+      text-align: left;
+      line-height: 200%;
+
+  }
+
